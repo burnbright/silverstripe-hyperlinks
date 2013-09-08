@@ -1,0 +1,20 @@
+{
+    "name": "burnbright/silverstripe-hyperlinks",
+    "description": "Create arbitrary lists of links in SilverStripe.",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "link","hyperlink","menu","navigation"],
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net"
+        }
+    ],
+    "require": {
+		"silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1",
+        "lrc/silverstripe-link-field": "dev-master"
+    },
+     "extra": {
+        "installer-name": "hyperlinks"
+    }
+}
